@@ -1,4 +1,4 @@
-# AquaNet2 Helper Scripts
+# AquaNet Helper Scripts
 
 *Please* read the comments in the scripts before you use them.<br>
 Anyone is welcome to add to this list.
@@ -14,6 +14,8 @@ Jackets should be placed as `(data base)/(game)/music/(6-digit id).png`
 - [Song Jackets](./chu3/jackets.ts)
 
 ## Maimai
+:warning: **Warning:** KDX data does not work with these scripts 
+
 
 TODO: all-items generation<br>
 - [Generating all-music.json](./mai2/all-music.ts)
