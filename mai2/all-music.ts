@@ -53,7 +53,7 @@ for (const option of options) {
                 utageKanjiName: xmlData.MusicData.utageKanjiName,
                 genre: xmlData.MusicData.genreName.str ?? null,
                 notes: xmlData.MusicData.notesData.Notes.filter(v => v.isEnable).map(v => ({
-                    lv: parseInt(v.level) + (parseInt(v.levelDecimal ?? 0) / 100)
+                    lv: parseInt(v.level) + (parseInt(v.levelDecimal ?? 0) / 10)
                 } as {lv: number}))
             }
         }
